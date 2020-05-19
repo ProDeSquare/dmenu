@@ -1,2 +1,10 @@
 patches/
 config.h.orig
+dmenu
+dmenu.1.orig
+dmenu.c.orig
+dmenu.o
+drw.o
+stest
+stest.o
+util.o
