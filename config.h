@@ -7,14 +7,14 @@ static int centered = 1;                    /* -c option; centers dmenu on scree
 static int min_width = 760;                    /* minimum width when centered */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Jetbrains Mono:size=12"
+	"SF UI Display:size=11"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#bbbbbb", "#222222" },
-	[SchemeSel] = { "#eeeeee", "#FFC300" },
-	[SchemeSelHighlight] = { "#FFC300", "#C70039" },
+	[SchemeNorm] = { "#bbbbbb", "#24252a" },
+	[SchemeSel] = { "#24252a", "#ffd580" },
+	[SchemeSelHighlight] = { "#ffd580", "#ef6b73" },
 	[SchemeNormHighlight] = { "#900C3E", "#222222" },
 	[SchemeOut] = { "#000000", "#00ffff" },
 };
