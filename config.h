@@ -9,7 +9,7 @@ static int min_width = 760;                    /* minimum width when centered */
 static const char *fonts[] = {
 	"Jetbrains Mono:size=11"
 };
-static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
+static const char *prompt      = "Run ";      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
 	[SchemeNorm] = { "#E6C176", "#282C34" },
