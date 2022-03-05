@@ -1,10 +1,10 @@
 static int topbar                           = 1;
 static int fuzzy                            = 1;
-static int centered                         = 0;
+static int centered                         = 0;            // -c
 static int min_width                        = 400;
-static const char *prompt                   = "";
+static const char *prompt                   = "";           // -p
 
-static const char *fonts[]                  = { "Jetbrains Mono:size=10" };
+static const char *fonts[]                  = { "SF Mono Nerd Font:size=10:style=medium" };
 
 static const char *colors[SchemeLast][2]    = {
 	//                           fg         bg
@@ -13,12 +13,12 @@ static const char *colors[SchemeLast][2]    = {
 	[SchemeSelHighlight]    = { "#C84B4A", "#E6C176" },
 	[SchemeNormHighlight]   = { "#B771CD", "#1c2023" },
 	[SchemeOut]             = { "#000000", "#00ffff" },
-	[SchemeHp]              = { "#bbbbbb", "#333333" }
+	[SchemeHp]              = { "#bbbbbb", "#333333" },
 };
 
 // -l and -g options; controls number of lines and columns in grid if > 0
 static unsigned int lines                   = 0;
-static unsigned int lineheight              = 34;
+static unsigned int lineheight              = 30;
 static unsigned int columns                 = 0;
 
 // Characters not considered part of a word while deleting words
