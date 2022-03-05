@@ -18,7 +18,7 @@ static const char *colors[SchemeLast][2]    = {
 
 // -l and -g options; controls number of lines and columns in grid if > 0
 static unsigned int lines                   = 0;
-static unsigned int lineheight              = 30;
+static unsigned int lineheight              = 32;
 static unsigned int columns                 = 0;
 
 // Characters not considered part of a word while deleting words
@@ -27,3 +27,4 @@ static const char worddelimiters[]          = " ";
 
 // Size of the window border
 static const unsigned int border_width      = 0;
+
