@@ -8,12 +8,12 @@ static const char *fonts[]                  = { "SF Mono Nerd Font:size=10:style
 
 static const char *colors[SchemeLast][2]    = {
 	//                           fg         bg
-	[SchemeNorm]            = { "#E6C176", "#1c2023" },
-	[SchemeSel]             = { "#1c2023", "#E6C176" },
-	[SchemeSelHighlight]    = { "#C84B4A", "#E6C176" },
-	[SchemeNormHighlight]   = { "#B771CD", "#1c2023" },
-	[SchemeOut]             = { "#000000", "#00ffff" },
-	[SchemeHp]              = { "#bbbbbb", "#333333" },
+	[SchemeNorm]            = { "#F8B017", "#001110" },
+	[SchemeSel]             = { "#001110", "#F8B017" },
+	[SchemeSelHighlight]    = { "#E71949", "#F8B017" },
+	[SchemeNormHighlight]   = { "#E01DCA", "#001110" },
+	[SchemeOut]             = { "#000000", "#00FFFF" },
+	[SchemeHp]              = { "#BBBBBB", "#333333" },
 };
 
 // -l and -g options; controls number of lines and columns in grid if > 0
